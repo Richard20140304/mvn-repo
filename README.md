@@ -5,6 +5,13 @@ Personal repository for some open source projects that I've included in some bui
 
 You really shouldn't rely on anything in this repo staying available; this is just for my own projects.
 
+Gradle usage:
+```groovy
+repositories {
+    mavenRepo url: 'https://raw.github.com/cholick/mvn-repo/master/'
+}
+```
+
 Contents:
 * http://code.google.com/p/language-detection/ - a language detection library
 * http://www.cs.waikato.ac.nz/ml/weka/ - a collection of machine learning algorithms for data mining
