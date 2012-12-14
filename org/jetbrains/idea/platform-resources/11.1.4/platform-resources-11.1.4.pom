@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>platform-resources</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
 
   <name>Maven Integration of platform-resources modul</name>
   <description>Maven modul for platform-resources jar</description>

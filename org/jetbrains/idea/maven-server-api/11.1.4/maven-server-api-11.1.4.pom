@@ -10,7 +10,7 @@
   </parent>
   <groupId>org.jetbrains.idea</groupId>
   <artifactId>maven-server-api</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
   <name>Maven module for maven-server-api</name>
   <description>Maven integration for module maven-server-api</description>
   <build>

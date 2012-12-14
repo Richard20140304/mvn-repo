@@ -10,7 +10,7 @@
   </parent>
   <groupId>org.jetbrains.idea</groupId>
   <artifactId>copyright</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
   <name>Maven module for copyright</name>
   <description>Maven integration for module copyright</description>
   <build>

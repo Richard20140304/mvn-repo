@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>core-api</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
 
   <name>Maven Integration of core-api modul</name>
   <description>Maven modul for core-api jar</description>

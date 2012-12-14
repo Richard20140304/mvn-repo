@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>xdebugger-impl</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
 
   <name>Maven Integration of xdebugger-impl modul</name>
   <description>Maven modul for xdebugger-impl jar</description>

@@ -10,7 +10,7 @@
   </parent>
   <groupId>org.jetbrains.idea</groupId>
   <artifactId>xslt-rt</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
   <name>Maven module for xslt-rt</name>
   <description>Maven integration for module xslt-rt</description>
   <build>

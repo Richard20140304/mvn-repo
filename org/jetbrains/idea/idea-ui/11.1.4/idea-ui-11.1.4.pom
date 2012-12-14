@@ -10,7 +10,7 @@
   </parent>
   <groupId>org.jetbrains.idea</groupId>
   <artifactId>idea-ui</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
   <name>Maven module for idea-ui</name>
   <description>Maven integration for module idea-ui</description>
   <build>

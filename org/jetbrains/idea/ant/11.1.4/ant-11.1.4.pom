@@ -10,7 +10,7 @@
   </parent>
   <groupId>org.jetbrains.idea</groupId>
   <artifactId>ant</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
   <name>Maven module for ant</name>
   <description>Maven integration for module ant</description>
   <build>

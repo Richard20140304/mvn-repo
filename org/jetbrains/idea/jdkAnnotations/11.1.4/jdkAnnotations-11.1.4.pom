@@ -9,7 +9,7 @@
 	</parent>
 
 	<artifactId>jdkAnnotations</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
 
 	<name>Maven Integration of jdkAnnotations modul</name>
 	<description>Maven modul for jdkAnnotations jar</description>

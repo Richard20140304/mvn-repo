@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>util-rt</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
 
   <name>Maven Integration of util-rt modul</name>
   <description>Maven modul for util-rt jar</description>

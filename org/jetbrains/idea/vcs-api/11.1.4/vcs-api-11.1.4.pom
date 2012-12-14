@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>vcs-api</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
 
   <name>Maven Integration of vcs-api modul</name>
   <description>Maven modul for vcs-api jar</description>

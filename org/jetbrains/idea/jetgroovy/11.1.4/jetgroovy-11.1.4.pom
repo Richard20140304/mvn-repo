@@ -11,7 +11,7 @@
   </parent>
   <groupId>org.jetbrains.idea</groupId>
   <artifactId>jetgroovy</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
   <name>Maven module for jetgroovy</name>
   <description>Maven integration for module jetgroovy</description>
   <build>

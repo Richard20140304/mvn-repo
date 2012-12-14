@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>dom-openapi</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
 
 	<name>Maven Integration of dom-openapi modul</name>
 	<description>Maven modul for dom-openapi jar</description>

@@ -139,7 +139,7 @@
                   <groupId>org.jetbrains.thirdparthy</groupId>
                   <artifactId>asm4-all</artifactId>
                   <file>${idea.home}/lib/asm4-all.jar</file>
-                  <version>${idea.version}</version>
+                  <version>11.1.4</version>
                   <packaging>jar</packaging>
                 </configuration>
               </execution>
@@ -334,8 +334,8 @@
     <module>plugins/groovy/rt</module>
     <module>plugins/groovy</module>
 
-    <module>distribution/idea-openapi/${idea.version}</module>
-    <module>distribution/idea/${idea.version}</module>
+    <module>distribution/idea-openapi/11.1.4</module>
+    <module>distribution/idea/11.1.4</module>
 
     <!--<module>idea_rt</module>-->
     <!--<module>jps-server</module>-->
@@ -409,7 +409,7 @@
               <groupId>org.jetbrains.thirdparthy</groupId>
               <artifactId>trove4j</artifactId>
               <file>${idea.home}/lib/trove4j.jar</file>
-              <version>${idea.version}</version>
+              <version>11.1.4</version>
               <packaging>jar</packaging>
             </configuration>
           </execution>
@@ -423,7 +423,7 @@
               <groupId>org.jetbrains.thirdparthy</groupId>
               <artifactId>eawtstub</artifactId>
               <file>${idea.home}/lib/eawtstub.jar</file>
-              <version>${idea.version}</version>
+              <version>11.1.4</version>
               <packaging>jar</packaging>
             </configuration>
           </execution>
@@ -437,7 +437,7 @@
               <groupId>org.jetbrains.thirdparthy</groupId>
               <artifactId>serviceMessages</artifactId>
               <file>${idea.home}/lib/serviceMessages.jar</file>
-              <version>${idea.version}</version>
+              <version>11.1.4</version>
               <packaging>jar</packaging>
             </configuration>
           </execution>
@@ -452,7 +452,7 @@
               <groupId>org.jetbrains.thirdparthy</groupId>
               <artifactId>microba</artifactId>
               <file>${idea.home}/lib/microba.jar</file>
-              <version>${idea.version}</version>
+              <version>11.1.4</version>
               <packaging>jar</packaging>
             </configuration>
           </execution>
@@ -466,7 +466,7 @@
               <groupId>org.jetbrains.thirdparthy</groupId>
               <artifactId>jna-utils</artifactId>
               <file>${idea.home}/lib/jna-utils.jar</file>
-              <version>${idea.version}</version>
+              <version>11.1.4</version>
               <packaging>jar</packaging>
             </configuration>
           </execution>
@@ -480,7 +480,7 @@
               <groupId>org.jetbrains.thirdparthy</groupId>
               <artifactId>jing</artifactId>
               <file>${idea.home}/xml/relaxng/lib/jing.jar</file>
-              <version>${idea.version}</version>
+              <version>11.1.4</version>
               <packaging>jar</packaging>
             </configuration>
           </execution>
@@ -494,7 +494,7 @@
               <groupId>org.jetbrains.thirdparthy</groupId>
               <artifactId>trang</artifactId>
               <file>${idea.home}/xml/relaxng/lib/trang-core.jar</file>
-              <version>${idea.version}</version>
+              <version>11.1.4</version>
               <packaging>jar</packaging>
             </configuration>
           </execution>
@@ -508,7 +508,7 @@
               <groupId>org.jetbrains.thirdparthy</groupId>
               <artifactId>rngom</artifactId>
               <file>${idea.home}/xml/relaxng/lib/rngom-20051226-patched.jar</file>
-              <version>${idea.version}</version>
+              <version>11.1.4</version>
               <packaging>jar</packaging>
             </configuration>
           </execution>
@@ -522,7 +522,7 @@
               <groupId>org.jetbrains.thirdparthy</groupId>
               <artifactId>isorelax</artifactId>
               <file>${idea.home}/xml/relaxng/lib/isorelax.jar</file>
-              <version>${idea.version}</version>
+              <version>11.1.4</version>
               <packaging>jar</packaging>
             </configuration>
           </execution>
@@ -536,7 +536,7 @@
               <groupId>org.jetbrains.thirdparthy</groupId>
               <artifactId>proxyvole</artifactId>
               <file>${idea.home}/lib/proxy-vole_20120920.jar</file>
-              <version>${idea.version}</version>
+              <version>11.1.4</version>
               <packaging>jar</packaging>
             </configuration>
           </execution>
@@ -550,512 +550,512 @@
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>compiler-impl</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>compiler-openapi</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>debugger-impl</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>debugger-openapi</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>execution-impl</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>execution-openapi</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>forms-compiler</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>instrumentation-util</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>idea-ui</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <!--<dependency>-->
       <!--<groupId>org.jetbrains.idea</groupId>-->
       <!--<artifactId>java-i18n</artifactId>-->
-      <!--<version>${idea.version}</version>-->
+      <!--<version>11.1.4</version>-->
       <!--</dependency>-->
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>java-impl</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>java-indexing-api</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>java-indexing-impl</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>java-psi-api</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>java-psi-impl</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>java-runtime</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>java-tests</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>javac2</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>jsp-base-openapi</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>jsp-openapi</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>jsp-spi</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>notNull</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>openapi</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>javacvs-src</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>tasks-java</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>testFramework-java</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
 
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>jps-model</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>jps-model-api</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>jps-model-impl</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>jps-model-serialization</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>jps-appLauncher</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>jps-builders</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>jps-scala</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>antlayout</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>jps</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
 
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>annotations</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>boot</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>bootstrap</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>core-api</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>core-impl</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>extensions</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>forms_rt</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>icons</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>indexing-api</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>indexing-impl</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>lang-api</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>lang-impl</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>lvcs-api</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>lvcs-impl</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>platform-api</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>platform-impl</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>platform-main</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>platform-resources</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>platform-resources-en</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>platform-tests</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>projectModel-api</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>projectModel-impl</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>smRunner</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>testFramework</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>testRunner</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>tests_bootstrap</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>usageView</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>util</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>util-rt</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>vcs-api</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>vcs-impl</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>xdebugger-api</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>xdebugger-impl</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
 
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>dom-impl</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>dom-openapi</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>xml</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>xml-openapi</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
 
 
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>jdkAnnotations</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>RegExpSupport</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
 
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>openapi</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>resources</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>resources-en</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
 
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>spellchecker</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>properties</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>devkit</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>maven-server-api</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>ui-designer-jps-plugin</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>ant</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>copyright</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>xslt-rt</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>xpath</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>IntelliLang</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>groovy_rt</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.idea</groupId>
         <artifactId>jetgroovy</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
 
       <dependency>
         <groupId>org.jetbrains.thirdparthy</groupId>
         <artifactId>serviceMessages</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.thirdparthy</groupId>
         <artifactId>trove4j</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.thirdparthy</groupId>
         <artifactId>eawtstub</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.thirdparthy</groupId>
         <artifactId>microba</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.thirdparthy</groupId>
         <artifactId>jna-utils</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
 
       <dependency>
         <groupId>org.jetbrains.thirdparthy</groupId>
         <artifactId>jing</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.thirdparthy</groupId>
         <artifactId>trang</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.thirdparthy</groupId>
         <artifactId>rngom</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.thirdparthy</groupId>
         <artifactId>isorelax</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
 
       <dependency>
         <groupId>org.jetbrains.thirdparthy</groupId>
         <artifactId>asm4-all</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
       <dependency>
         <groupId>org.jetbrains.thirdparthy</groupId>
         <artifactId>proxyvole</artifactId>
-        <version>${idea.version}</version>
+        <version>11.1.4</version>
       </dependency>
 
       <dependency>

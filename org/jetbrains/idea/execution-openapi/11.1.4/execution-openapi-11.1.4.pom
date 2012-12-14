@@ -10,7 +10,7 @@
   </parent>
   <groupId>org.jetbrains.idea</groupId>
   <artifactId>execution-openapi</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
   <name>Maven module for execution-openapi</name>
   <description>Maven integration for module execution-openapi</description>
   <build>

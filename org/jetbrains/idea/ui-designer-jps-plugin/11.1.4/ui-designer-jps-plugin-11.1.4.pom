@@ -10,7 +10,7 @@
   </parent>
   <groupId>org.jetbrains.idea</groupId>
   <artifactId>ui-designer-jps-plugin</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
   <name>Maven module for ui-designer-jps-plugin</name>
   <description>Maven integration for module ui-designer-jps-plugin</description>
   <build>

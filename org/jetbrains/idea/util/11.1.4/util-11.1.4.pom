@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>util</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
 
   <name>Maven Integration of util modul</name>
   <description>Maven modul for util jar</description>

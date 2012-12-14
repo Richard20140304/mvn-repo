@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>indexing-impl</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
 
   <name>Maven Integration of indexing-impl modul</name>
   <description>Maven modul for indexing-impl jar</description>

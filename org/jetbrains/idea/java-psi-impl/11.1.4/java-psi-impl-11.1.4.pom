@@ -10,7 +10,7 @@
   </parent>
   <groupId>org.jetbrains.idea</groupId>
   <artifactId>java-psi-impl</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
   <name>Maven module for java-psi-impl</name>
   <description>Maven integration for module java-psi-impl</description>
 

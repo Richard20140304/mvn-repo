@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>testRunner</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
 
   <name>Maven Integration of testRunner modul</name>
   <description>Maven modul for testRunner jar</description>

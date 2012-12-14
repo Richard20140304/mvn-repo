@@ -9,7 +9,7 @@
   </parent>
   <groupId>org.jetbrains.idea</groupId>
   <artifactId>jps</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
   <name>Maven module for jps</name>
   <description>Maven integration for module jps</description>
   <build>

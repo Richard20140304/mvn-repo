@@ -9,7 +9,7 @@
   </parent>
   <groupId>org.jetbrains.idea</groupId>
   <artifactId>RegExpSupport</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
   <name>Maven module for RegExpSupport</name>
   <description>Maven integration for module RegExpSupport</description>
   <build>

@@ -10,7 +10,7 @@
 	</parent>
 
 	<artifactId>forms_rt</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
 
 	<name>Maven Integration of forms_rt modul</name>
 	<description>Maven modul for forms_rt jar</description>

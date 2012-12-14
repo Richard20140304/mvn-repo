@@ -10,7 +10,7 @@
   </parent>
   <groupId>org.jetbrains.idea</groupId>
   <artifactId>instrumentation-util</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
   <name>Maven module for instrumentation-util</name>
   <description>Maven integration for module instrumentation-util</description>
 

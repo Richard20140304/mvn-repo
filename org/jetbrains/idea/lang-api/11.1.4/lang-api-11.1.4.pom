@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>lang-api</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
 
   <name>Maven Integration of lang-api modul</name>
   <description>Maven modul for lang-api jar</description>

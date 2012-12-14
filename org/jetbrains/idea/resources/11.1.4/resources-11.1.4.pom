@@ -9,7 +9,7 @@
 	</parent>
 
 	<artifactId>resources</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
 
 	<name>Maven Integration of resources modul</name>
 	<description>Maven modul for resources jar</description>

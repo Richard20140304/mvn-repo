@@ -10,7 +10,7 @@
   </parent>
   <groupId>org.jetbrains.idea</groupId>
   <artifactId>java-indexing-api</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
   <name>Maven module for java-indexing-api</name>
   <description>Maven integration for module java-indexing-api</description>
 

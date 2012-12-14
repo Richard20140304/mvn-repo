@@ -10,7 +10,7 @@
   </parent>
 
   <artifactId>platform-impl</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
 
   <name>Maven Integration of platform-impl modul</name>
   <description>Maven modul for platform-impl jar</description>

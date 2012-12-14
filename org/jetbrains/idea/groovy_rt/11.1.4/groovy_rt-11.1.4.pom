@@ -10,7 +10,7 @@
   </parent>
   <groupId>org.jetbrains.idea</groupId>
   <artifactId>groovy_rt</artifactId>
-  <version>${idea.version}</version>
+  <version>11.1.4</version>
   <name>Maven module for groovy_rt</name>
   <description>Maven integration for module groovy_rt</description>
   <build>
