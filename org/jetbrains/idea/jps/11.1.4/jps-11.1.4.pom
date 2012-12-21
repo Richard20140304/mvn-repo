@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>parent</artifactId>
+    <artifactId>parent.eleven.1114</artifactId>
     <groupId>org.jetbrains.idea</groupId>
-    <version>1</version>
+    <version>11.1.4</version>
   </parent>
   <groupId>org.jetbrains.idea</groupId>
   <artifactId>jps</artifactId>
-  <version>11.1.4</version>
+
   <name>Maven module for jps</name>
   <description>Maven integration for module jps</description>
   <build>

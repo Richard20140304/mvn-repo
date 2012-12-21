@@ -4,12 +4,12 @@
 
 	<parent>
 		<groupId>org.jetbrains.idea</groupId>
-		<artifactId>parent</artifactId>
-		<version>1</version>
+		<artifactId>parent.eleven.1114</artifactId>
+		<version>11.1.4</version>
 	</parent>
 
 	<artifactId>resources-en</artifactId>
-  <version>11.1.4</version>
+
 
 	<name>Maven Integration of resources_en modul</name>
 	<description>Maven modul for resources_en jar</description>

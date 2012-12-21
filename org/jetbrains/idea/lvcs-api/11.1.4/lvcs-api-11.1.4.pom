@@ -4,13 +4,13 @@
 
   <parent>
     <groupId>org.jetbrains.idea</groupId>
-    <artifactId>parent</artifactId>
-    <version>1</version>
+    <artifactId>parent.eleven.1114</artifactId>
+    <version>11.1.4</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
 
   <artifactId>lvcs-api</artifactId>
-  <version>11.1.4</version>
+
 
   <name>Maven Integration of lvcs-api modul</name>
   <description>Maven modul for core-api jar</description>

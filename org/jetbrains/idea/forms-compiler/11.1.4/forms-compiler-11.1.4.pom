@@ -3,39 +3,16 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>parent</artifactId>
+    <artifactId>parent.eleven.1114</artifactId>
     <groupId>org.jetbrains.idea</groupId>
-    <version>1</version>
+    <version>11.1.4</version>
     <relativePath>../../../pom.xml</relativePath>
   </parent>
   <groupId>org.jetbrains.idea</groupId>
   <artifactId>forms-compiler</artifactId>
-  <version>11.1.4</version>
+
   <name>Maven module for forms-compiler</name>
   <description>Maven integration for module forms-compiler</description>
-
-  <profiles>
-    <profile>
-      <id>intellij-12</id>
-      <activation>
-        <property>
-          <name>IntelliJ</name>
-          <value>12</value>
-        </property>
-      </activation>
-      <dependencies>
-        <dependency>
-          <groupId>org.jetbrains.idea</groupId>
-          <artifactId>instrumentation-util</artifactId>
-        </dependency>
-        <dependency>
-          <groupId>org.jetbrains.thirdparthy</groupId>
-          <artifactId>asm4-all</artifactId>
-        </dependency>
-      </dependencies>
-    </profile>
-  </profiles>
-
   <build>
     <sourceDirectory>${idea.home}/java/compiler/forms-compiler/src</sourceDirectory>
     <resources>
@@ -52,6 +29,7 @@
     <dependency>
       <groupId>org.jetbrains.idea</groupId>
       <artifactId>forms_rt</artifactId>
+
     </dependency>
   </dependencies>
 </project>

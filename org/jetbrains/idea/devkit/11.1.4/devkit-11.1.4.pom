@@ -3,14 +3,14 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <artifactId>parent</artifactId>
+    <artifactId>parent.eleven.1114</artifactId>
     <groupId>org.jetbrains.idea</groupId>
-    <version>1</version>
+    <version>11.1.4</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
   <groupId>org.jetbrains.idea</groupId>
   <artifactId>devkit</artifactId>
-  <version>11.1.4</version>
+
   <name>Maven module for devkit</name>
   <description>Maven integration for module devkit</description>
   <build>
@@ -31,26 +31,6 @@
         </excludes>
       </resource>
     </resources>
-    <plugins>
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>build-helper-maven-plugin</artifactId>
-        <executions>
-          <execution>
-            <id>add-source</id>
-            <phase>generate-sources</phase>
-            <goals>
-              <goal>add-source</goal>
-            </goals>
-            <configuration>
-              <sources>
-                <source>${idea.home}/plugins/devkit/resources</source>
-              </sources>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
-    </plugins>
   </build>
   <dependencies>
     <dependency>
